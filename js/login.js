@@ -6,9 +6,11 @@ document.getElementById("btn-submit").addEventListener("click", function () {
   const password = passwordField.value;
 
   // This is not a proper way just learning perpose
-  if (email === "helloworld@gmail.com" && password === "1234") {
+  if (email === "babarBank@gmail.com" && password === "asia444") {
     window.location.href = "deposit.html";
   } else {
-    console.log("invalid user");
+    alert(
+      "Babar Bank er Taka churi korte ayso! Email--Password vul niayso ken?"
+    );
   }
 });
