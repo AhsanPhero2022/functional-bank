@@ -6,7 +6,7 @@ document.getElementById("btn-submit").addEventListener("click", function () {
   const password = passwordField.value;
 
   // This is not a proper way just learning perpose
-  if (email === "sontan@gmail.com" && password === "secret") {
+  if (email === "helloworld@gmail.com" && password === "1234") {
     window.location.href = "deposit.html";
   } else {
     console.log("invalid user");
