@@ -2,8 +2,15 @@
   body {
     background-color: pink;
   }
-  .d {
+  .display {
     display: flex;
     flex-direction: column;
+  }
+  .plate {
+    width: 100%;
+    display: block;
+  }
+  .plate1 {
+    margin-top: 50px;
   }
 }
