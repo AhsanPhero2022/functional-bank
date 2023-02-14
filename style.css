@@ -1,0 +1,9 @@
+@media screen and (max-width: 570px) {
+  body {
+    background-color: pink;
+  }
+  .d {
+    display: flex;
+    flex-direction: column;
+  }
+}
